@@ -1,7 +1,11 @@
 angular-responsive-include
 ==========================
 
-Angular directive for conditional includes based on media queries. Allows you to include responsive markup in your Angular apps.
+Sometimes css isn't quite enough to get that sweet responsive site working perfectly. Responsive Markup is an approach to adapting the HTML markup of your page based on Media Queries.
+
+A good indicator for using this pattern is when your css shows and hides content based on breakpoints, a common example would be off-page mobile navigation.
+
+angular-responsive-include is a directive I've created to provide an elegant way to follow the Responsive Markup pattern in your Angularjs apps.
 
 ## Requirements
 [Angularjs](http://http://angularjs.org/) v1.2.x
